@@ -1,0 +1,18 @@
+мар. 18, 2023 5:07:49 PM org.example.Application main
+INFO: Загаданная комбинация: 5719
+мар. 18, 2023 5:07:55 PM org.example.AbstractClass inputAnswer
+INFO: Попытка 1: 1234 (1 : 0)
+мар. 18, 2023 5:07:57 PM org.example.AbstractClass inputAnswer
+INFO: Попытка 2: 5678 (2 : 1)
+мар. 18, 2023 5:07:59 PM org.example.AbstractClass inputAnswer
+INFO: Попытка 3: 9032 (1 : 0)
+мар. 18, 2023 5:08:01 PM org.example.AbstractClass inputAnswer
+INFO: Попытка 4: 5471 (3 : 1)
+мар. 18, 2023 5:08:03 PM org.example.AbstractClass inputAnswer
+INFO: Попытка 5: 1309 (2 : 1)
+мар. 18, 2023 5:08:06 PM org.example.AbstractClass inputAnswer
+INFO: Попытка 6: 2560 (1 : 0)
+мар. 18, 2023 5:08:08 PM org.example.AbstractClass inputAnswer
+INFO: Попытка 7: 3211 (2 : 1)
+мар. 18, 2023 5:08:10 PM org.example.AbstractClass inputAnswer
+INFO: Попытка 8: 163 (1 : 0)
