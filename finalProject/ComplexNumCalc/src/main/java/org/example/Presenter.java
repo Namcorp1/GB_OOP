@@ -1,6 +1,6 @@
 package org.example;
 
-import org.example.model.Calculations;
+import org.example.model.Calculator;
 import org.example.model.Logger;
 import org.example.num.ComplexNumber;
 import org.example.view.View;
@@ -9,12 +9,12 @@ import java.io.IOException;
 import java.util.Date;
 
 public class Presenter {
-    Calculations calculations;
+    Calculator calculator;
     View view;
     Logger logger;
 
-    public Presenter(Calculations calculations, View view, Logger logger) {
-        this.calculations = calculations;
+    public Presenter(Calculator calculator, View view, Logger logger) {
+        this.calculator = calculator;
         this.view = view;
         this.logger = logger;
     }
@@ -32,16 +32,16 @@ public class Presenter {
             boolean check = true;
             switch (operation) {
                 case "+":
-                    res = calculations.addition(num1, num2);
+                    res = calculator.addition(num1, num2);
                     break;
                 case "-":
-                    res = calculations.subtraction(num1, num2);
+                    res = calculator.subtraction(num1, num2);
                     break;
                 case "*":
-                    res = calculations.mulitplication(num1, num2);
+                    res = calculator.mulitplication(num1, num2);
                     break;
                 case "/":
-                    res = calculations.division(num1, num2);
+                    res = calculator.division(num1, num2);
                     break;
                 default:
                     System.out.println("Некорректная команда!");
